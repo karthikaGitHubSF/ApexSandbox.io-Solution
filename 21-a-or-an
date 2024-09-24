@@ -1,0 +1,7 @@
+public String aOrAn(String word) {
+ Boolean isVowel = word.startsWithIgnoreCase('a','e','i','o','u');
+ if(isVowel == True)
+  return 'an';
+else
+ return 'a';
+}
